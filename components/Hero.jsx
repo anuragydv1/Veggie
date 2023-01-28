@@ -1,5 +1,5 @@
 import css from '../styles/Hero.module.css';
-import Image from 'next/Image';
+import Image from 'next/image';
 import Cherry from '../assets/Cherry.png';
 import HeroImage from '../assets/HeroImage.png';
 import { UilPhone } from '@iconscout/react-unicons';

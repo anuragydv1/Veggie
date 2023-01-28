@@ -1,5 +1,5 @@
 import { urlFor } from '../lib/client';
-import Image from 'next/Image';
+import Image from 'next/image';
 import css from '../styles/Menu.module.css';
 import Link from 'next/link';
 export default function Menu({ pizzas }) {

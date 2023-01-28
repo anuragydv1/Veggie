@@ -1,5 +1,5 @@
 
-import Image from "next/Image";
+import Image from "next/image";
 import Layout from "../../components/Layout"
 import { client, urlFor } from "../../lib/client"
 import css from '../../styles/Pizza.module.css'

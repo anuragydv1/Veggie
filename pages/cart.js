@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import css from '../styles/Cart.module.css';
-import Image from "next/Image";
+import Image from "next/image";
 import { useStore } from "../store/store";
 import { urlFor } from "../lib/client";
 import toast, { Toaster } from "react-hot-toast";

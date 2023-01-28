@@ -6,6 +6,7 @@ import Onway from '../../assets/onway.png';
 import Spinner from '../../assets/spinner.svg';
 import { UilBill, UilBox } from '@iconscout/react-unicons';
 import { useEffect } from 'react';
+import Image from "next/image";
 
 export const getServerSideProps = async ({ params }) => {
     const query = `*[_type == 'order' && _id == '${params.id}']`;

@@ -1,5 +1,5 @@
 import css from '../styles/Header.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Logo from '../assets/Logo.png'
 import { UilShoppingBag, UilReceipt } from '@iconscout/react-unicons'
 import { useStore } from "../store/store"
